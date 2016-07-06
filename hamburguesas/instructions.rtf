@@ -1,0 +1,92 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red38\green38\blue38;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid1\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{lower-alpha\}.}{\leveltext\leveltemplateid2\'02\'01.;}{\levelnumbers\'01;}\fi-360\li1440\lin1440 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc3\levelnfcn3\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{upper-alpha\}.}{\leveltext\leveltemplateid101\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid2}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}}
+\paperw12240\paperh15840\margl1440\margr1440\vieww9000\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs28 \cf2 \expnd0\expndtw0\kerning0
+INSTRUCCIONES\
+Crea una aplicaci\'f3n para iPhone que le muestre hamburguesas del mundo al usuario. Durante este reto revisar\'e1s los conceptos que hemos trabajado del desarrollo de aplicaciones para iPhone y las bases que revisamos de Swift versi\'f3n 2.0.\
+Crea un proyecto nuevo en Xcode que se llame Hamburguesas y desarrolla lo siguiente:\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0\cf2 \kerning1\expnd0\expndtw0 {\listtext	1.	}\expnd0\expndtw0\kerning0
+Crea un archivo de Swift llamado: Datos.swift, dentro de \'e9l declara las siguientes clases:\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls1\ilvl1\cf2 \kerning1\expnd0\expndtw0 {\listtext	a.	}\expnd0\expndtw0\kerning0
+class ColeccionDePaises\
+\ls1\ilvl1\kerning1\expnd0\expndtw0 {\listtext	b.	}\expnd0\expndtw0\kerning0
+La clase tiene como atributos un arreglo de pa\'edses de tipo [String], al menos debes contar con 20 pa\'edses.\
+\ls1\ilvl1\kerning1\expnd0\expndtw0 {\listtext	c.	}\expnd0\expndtw0\kerning0
+La clase define el m\'e9todo: func obtenPais( )->String, regresa de manera aleatoria un pa\'eds del arreglo, recuerda usar la funci\'f3n de la siguiente manera: Int(arc4random() % x), donde x puede ser el tama\'f1o del arreglo pa\'edses.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0\cf2 \kerning1\expnd0\expndtw0 {\listtext	2.	}\expnd0\expndtw0\kerning0
+Dentro del mismo archivo, Datos.swift, crea la clase:\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls1\ilvl1\cf2 \kerning1\expnd0\expndtw0 {\listtext	a.	}\expnd0\expndtw0\kerning0
+class ColeccionDeHamburguesa\
+\ls1\ilvl1\kerning1\expnd0\expndtw0 {\listtext	b.	}\expnd0\expndtw0\kerning0
+La clase tiene como atributos un arreglo de hamburguesas de tipo [String], al menos debes contar con 20 hamburguesas al igual que el n\'famero de pa\'edses.\
+\ls1\ilvl1\kerning1\expnd0\expndtw0 {\listtext	c.	}\expnd0\expndtw0\kerning0
+La clase define el m\'e9todo: func obtenHamburguesa( )->String, regresa de manera aleatoria una hamburquesa del arreglo, recuerda usar la funci\'f3n de la siguiente manera: Int(arc4random() % x), donde x puede ser el tama\'f1o del arreglo de hamburguesas.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0\cf2 \kerning1\expnd0\expndtw0 {\listtext	3.	}\expnd0\expndtw0\kerning0
+Dentro de tu interfaz gr\'e1fica debes contar con:\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls1\ilvl1\cf2 \kerning1\expnd0\expndtw0 {\listtext	a.	}\expnd0\expndtw0\kerning0
+Una etiqueta para mostrar el nombre del pa\'eds.\
+\ls1\ilvl1\kerning1\expnd0\expndtw0 {\listtext	b.	}\expnd0\expndtw0\kerning0
+Otra etiqueta para mostrar el nombre de la hamburguesa.\
+\ls1\ilvl1\kerning1\expnd0\expndtw0 {\listtext	c.	}\expnd0\expndtw0\kerning0
+Un bot\'f3n, con la leyenda: \'93Quiero una hamburguesa!\'94\
+\ls1\ilvl1\kerning1\expnd0\expndtw0 {\listtext	d.	}\expnd0\expndtw0\kerning0
+Debes de mostrar los elementos centrados en la interfaz gr\'e1fica\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0\cf2 \kerning1\expnd0\expndtw0 {\listtext	4.	}\expnd0\expndtw0\kerning0
+En la clase ViewController: desarrolla lo siguiente:\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls1\ilvl1\cf2 \kerning1\expnd0\expndtw0 {\listtext	a.	}\expnd0\expndtw0\kerning0
+Una instancia de la clase ColeccionDePaises.\
+\ls1\ilvl1\kerning1\expnd0\expndtw0 {\listtext	b.	}\expnd0\expndtw0\kerning0
+Una instancia de la clase ColeccionDeHamburguesas.\
+\ls1\ilvl1\kerning1\expnd0\expndtw0 {\listtext	c.	}\expnd0\expndtw0\kerning0
+Un @IBoutlet para la etiqueta de pa\'eds.\
+\ls1\ilvl1\kerning1\expnd0\expndtw0 {\listtext	d.	}\expnd0\expndtw0\kerning0
+Un @IBoutlet para la etiqueta de hamburguesa.\
+\ls1\ilvl1\kerning1\expnd0\expndtw0 {\listtext	e.	}\expnd0\expndtw0\kerning0
+Un @IBAction para implementar cambiar de pa\'eds y de hamburguesa.\
+\pard\tx220\tx720\tx1120\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0\cf2 \kerning1\expnd0\expndtw0 {\listtext	5.	}\expnd0\expndtw0\kerning0
+Al presionar el bot\'f3n debes cambiar el pa\'eds y la hamburguesa que se despliegan en las etiquetas, de manera opcional cambia el color de fondo como se realizo en los videos del m\'f3dulo 5.\
+\pard\pardeftab720\partightenfactor0
+\cf2 \
+\pard\pardeftab720\partightenfactor0
+
+\b \cf0 \
+\pard\tx560\pardeftab720\partightenfactor0
+
+\b0 \cf2 \kerning1\expnd0\expndtw0 CRITERIOS DE CLASIFICACI\'d3N\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls2\ilvl0\cf2 {\listtext	A.	}\expnd0\expndtw0\kerning0
+\'bfEl playground se encuentra en GitHub?\
+\ls2\ilvl0\kerning1\expnd0\expndtw0 {\listtext	B.	}\expnd0\expndtw0\kerning0
+\'bfEl playground est\'e1 hecho en Swift?\
+\ls2\ilvl0\kerning1\expnd0\expndtw0 {\listtext	C.	}\expnd0\expndtw0\kerning0
+\'bfSe incluye en el proyecto el archivo: Datos.swift?\
+\ls2\ilvl0\kerning1\expnd0\expndtw0 {\listtext	D.	}\expnd0\expndtw0\kerning0
+\'bfDentro del archivo Datos.swift se define la clase: ColeccionDePaises con la funcionalidad definida?\
+\ls2\ilvl0\kerning1\expnd0\expndtw0 {\listtext	E.	}\expnd0\expndtw0\kerning0
+\'bfDentro del archivo Datos.swift se define la clase: ColeccionDeHamburguesas con la funcionalidad definida?\
+\ls2\ilvl0\kerning1\expnd0\expndtw0 {\listtext	F.	}\expnd0\expndtw0\kerning0
+\'bfLa interfaz gr\'e1fica define las dos etiquetas y el bot\'f3n de: \'93Quiero una hamburguesa!!!\'94?\
+\ls2\ilvl0\kerning1\expnd0\expndtw0 {\listtext	G.	}\expnd0\expndtw0\kerning0
+\'bfLos elementos gr\'e1ficos se encuentran centrados?\
+\ls2\ilvl0\kerning1\expnd0\expndtw0 {\listtext	H.	}\expnd0\expndtw0\kerning0
+\'bfLa clase ViewController.swift define una instancia de cada una de las siguientes clases ColeccionDePaises,\'a0 ColeccionDeHamburguesas?\
+\ls2\ilvl0\kerning1\expnd0\expndtw0 {\listtext	I.	}\expnd0\expndtw0\kerning0
+\'bfLa clase ViewController.swift cuenta con: Un @IBoutlet para la etiqueta de pa\'eds. Un @IBoutlet para la etiqueta de hamburguesa. Un @IBAction para implementar cambiar de pa\'eds y de hamburguesa?\
+\ls2\ilvl0\kerning1\expnd0\expndtw0 {\listtext	J.	}\expnd0\expndtw0\kerning0
+\'bfAl presionar el bot\'f3n se cambian de manera aleatoria los valores de la etiqueta pa\'eds y hamburguesa?}
